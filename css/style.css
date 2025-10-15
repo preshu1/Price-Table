@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+
+  color: #524b49;
+  background-color: #f5f0f0;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: aquamarine;
+  text-align: center;
+  text-shadow: 0 0 4px gray;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+  min-height: 400px;
+  width: 300px;
+  border: 1px solid #d1dee0;
+  box-shadow: 0 0 6 gray, 0 0 8 gray;
+  background-color: #ebdfdf;
+}
+.p-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+  min-height: 400px;
+  width: 300px;
+  border: 1px solid #d1dee0;
+  box-shadow: 0 0 6 gray, 0 0 8 gray;
+  background-color: #7057d9;
+  color: white;
+  transform: scale(1.1) translateY(-10px);
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+.label,
+.p-label {
+  font-size: 20px;
+  font-weight: 400;
+}
+.amount,
+.p-amount {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+.des p,
+.p-des p {
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+.des p,
+.p-des p:last-child {
+  border-bottom: none;
+}
