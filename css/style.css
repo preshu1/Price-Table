@@ -20,7 +20,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: bolder;
   letter-spacing: 2px;
-  color: aquamarine;
+  color: rgb(2, 53, 36);
   text-align: center;
   text-shadow: 0 0 4px gray;
 }
@@ -66,8 +66,30 @@ h2 {
 .p-des p {
   border-bottom: 1px solid gray;
   padding: 10px 0;
+  margin-bottom: 10px;
 }
 .des p,
 .p-des p:last-child {
   border-bottom: none;
+}
+.btn,
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.btn {
+  background-color: #643ba8;
+  color: white;
+}
+button {
+  background-color: white;
+  color: #643ba8;
+}
+
+button:hover {
+  box-shadow: 2px 1px 5px greenyellow;
+}
+.btn:hover {
+  box-shadow: 1px 3px 7px black;
 }
